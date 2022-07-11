@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -10,6 +9,7 @@ import Teams from './pages/team';
 
 function App() {
   return (
+    <>
     <Router>
       <Navbar />
       <Routes>
@@ -20,6 +20,7 @@ function App() {
         <Route path='/team' element={<Teams/>} />
       </Routes>
     </Router>
+    </>
   );
 }
 
