@@ -6,7 +6,7 @@ import {
     NavMenu,
 } from './NavbarElements';
 
-const Navbar = () => {
+function Navbar() {
     return (
         <div>
             <Nav>

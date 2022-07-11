@@ -22,9 +22,11 @@ export const NavLink = styled(Link)`
 
   &:hover {
     color: #6f6f6f;
+    transform: scale(1.2);
+    transition: transform .5s ease;
   }
   &.active {
-    color: #000000;
+    color: #6f6f6f;
   }
 
   font-family: futura-pt;
@@ -55,7 +57,6 @@ export const NavMenu = styled.div`
   display: flex;
   align-items: flex-start;
   margin-top: 5%;
-  margin-right: -24px;
   @media screen and (max-width: 768px) {
     display: none;
   }
