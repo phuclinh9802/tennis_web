@@ -26,7 +26,7 @@ function Home() {
                 <YoutubeEmbed embedId="rokGy0huYEA" />
             </div>
             <div className="content-card">
-               <ContentCard
+                <ContentCard
                     title="Coaches"
                     content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam." />
                 <ContentCard
@@ -34,12 +34,11 @@ function Home() {
                     content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam." />
                 <ContentCard
                     title="Benefit"
-                    content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."  />
+                    content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam." />
                 <ContentCard
                     title="Location"
                     content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam." />
             </div>
-            <Footer />
         </>
     );
 }
