@@ -1,7 +1,7 @@
 import React from "react";
-import './card.css'
+import './CourseCard.css'
 
-function Card({img,title,content}) {
+function CourseCard({img,title,content}) {
     return (
         <div className="container grid">
             <div className="card">
@@ -11,10 +11,11 @@ function Card({img,title,content}) {
                 <div className="content">
                     <h3>{title}</h3>
                     <p>{content}</p>
+                    <a className="link" href="/course">Read more</a>
                 </div>
             </div>
         </div>
     );
 }
 
-export default Card
+export default CourseCard
