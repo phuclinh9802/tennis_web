@@ -16,14 +16,8 @@ function Navbar() {
                     <NavLink to='/' activeStyle>
                         Trang Chủ
                     </NavLink>
-                    <NavLink to='/about' activeStyle>
-                        Giới Thiệu
-                    </NavLink>
                     <NavLink to='/course' activeStyle>
                         Khóa Học
-                    </NavLink>
-                    <NavLink to='/team' activeStyle>
-                        Huấn Luyện Viên
                     </NavLink>
                     <NavLink to='/contact' activeStyle>
                         Liên Hệ

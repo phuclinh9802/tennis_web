@@ -7,7 +7,7 @@ export const Nav = styled.nav`
   height: 600px;
   display: flex;
   justify-content: space-between;
-  padding-left: 70%;
+  padding-left: 80%;
   z-index: 12;
   background-image: url("https://picsum.photos/id/412/1920/600");
 `;
