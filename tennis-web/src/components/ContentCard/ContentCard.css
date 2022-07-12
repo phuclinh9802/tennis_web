@@ -18,7 +18,7 @@
     text-decoration: none;
     color: black;
     display: block;
-    transition: 1s ease;
+    transition: 0.25s ease;
     border-radius: 25px;
 }
 
@@ -52,12 +52,6 @@
 .card-container .card a .card--hover p {
     font-weight: normal;
     line-height: 1.5;
-}
-
-.card-container .card a .card--hover p.link {
-    margin: 20px 0 0;
-    font-weight: bold;
-    color: #5bc0eb;
 }
 
 .card-container .card .card--border {
