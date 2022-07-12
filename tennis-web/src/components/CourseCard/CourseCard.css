@@ -72,3 +72,9 @@
     transition-delay: 0.2s;
 
 }
+
+.link {
+    color: #5bc0eb;
+    font-family: futura-pt;
+    text-decoration: none;
+}
