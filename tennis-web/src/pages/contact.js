@@ -1,3 +1,4 @@
+import React from 'react';
 import { Typography } from '@mui/material';
 import ContactForm from '../components/ContactForm/Contact';
 import GoogleMap from '../components/GoogleMap/GoogleMap';
