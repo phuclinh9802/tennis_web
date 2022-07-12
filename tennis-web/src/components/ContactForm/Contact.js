@@ -1,3 +1,4 @@
+import React from 'react';
 import { Button, FormControl, Input, InputLabel, TextareaAutosize } from '@mui/material';
 
 import './Contact.css';
