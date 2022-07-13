@@ -38,6 +38,8 @@
 .avatar {
     justify-self: center;
     border-radius: 50%;
+    transform: scale(1);
+    transition: 0.5s ease;
 }
 
 .avatar:hover {
