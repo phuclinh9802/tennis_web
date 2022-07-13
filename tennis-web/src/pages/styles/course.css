@@ -1,0 +1,41 @@
+.video-container {
+    display: grid;
+    grid-template-rows: max-content;
+
+    width: 100%;
+    padding-top: 20px;
+    position: relative;
+}
+
+.video {
+    height: 920px;
+    width: 1920px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.section {
+    padding-bottom: 20px;
+}
+
+.section h2 {
+    padding-top: 10px;
+    text-align: center;
+
+    font-family: futura-pt;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 42px;
+    letter-spacing: 0.5px;
+    text-transform: none;
+    line-height: 1em;
+}
+
+.section h2:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    border-bottom: 2px solid gray;
+}
