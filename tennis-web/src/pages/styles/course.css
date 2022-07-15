@@ -1,0 +1,57 @@
+.video-container {
+    display: grid;
+    grid-template-rows: max-content;
+
+    width: 100%;
+    padding-top: 20px;
+    position: relative;
+}
+
+.video {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.section {
+    padding-bottom: 20px;
+    width: 80%;
+    justify-self: center;
+}
+
+.section h2 {
+    padding-top: 10px;
+    text-align: center;
+
+    font-family: futura-pt;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 42px;
+    letter-spacing: 0.5px;
+    text-transform: none;
+    line-height: 1em;
+}
+
+.section h3 {
+    text-align: center;
+    padding-top: 5px;
+
+    font-family: futura-pt;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    text-transform: none;
+    line-height: 1em;
+}
+
+.section h2:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    padding-top: 10px;
+    border-bottom: 2px solid gray;
+}

@@ -3,7 +3,7 @@ import CourseCard from "../components/CourseCard/CourseCard";
 import YoutubeEmbed from "../components/YoutubeEmbed/YoutubeEmbed";
 import ContentCard from "../components/ContentCard/ContentCard";
 import Fade from 'react-reveal/Fade'
-import "../asset/css/index.css";
+import "./styles/index.css";
 
 function Home() {
     return (
