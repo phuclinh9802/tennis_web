@@ -3,13 +3,12 @@ import { NavLink as Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const Nav = styled.nav`
-  background: #1e5c29;
+  background: transparent;
   height: 600px;
   display: flex;
   justify-content: space-between;
   padding-left: 80%;
   z-index: 12;
-  background-image: url("https://picsum.photos/id/412/1920/600");
 `;
 
 export const NavLink = styled(Link)`
