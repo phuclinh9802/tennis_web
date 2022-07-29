@@ -4,7 +4,7 @@ import YoutubeEmbed from "../components/YoutubeEmbed/YoutubeEmbed";
 import Fade from 'react-reveal/Fade'
 import Carousel from "react-material-ui-carousel"
 import Gallery from "react-grid-gallery"
-import { MainImages, getMainImages } from "../components/Gallery/MainImages";
+import { MainImages } from "../components/Gallery/MainImages";
 import "./styles/index.css";
 
 function Home() {
