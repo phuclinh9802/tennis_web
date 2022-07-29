@@ -4,16 +4,16 @@ import YoutubeEmbed from "../components/YoutubeEmbed/YoutubeEmbed";
 import Fade from 'react-reveal/Fade'
 import Carousel from "react-material-ui-carousel"
 import Gallery from "react-grid-gallery"
-import { MainImages } from "../components/Gallery/MainImages";
+import { MainImages, getMainImages } from "../components/Gallery/MainImages";
 import "./styles/index.css";
 
 function Home() {
     return (
         <div>
             <Fade>
-                <Carousel autoPlay="false" animation="slide" duration="600">
+                <Carousel autoPlay={false} animation="slide" duration="600">
                     <div className="about">
-                        <img src="https://picsum.photos/id/69/260" className="avatar" alt="avatar" />
+                        <img src= {process.env.PUBLIC_URL + "/images/IMG_0229_avatar.jpg"} className="avatar" alt="avatar" />
                         <div className="about-content">
                             <h2>About Me</h2>
                             <br />
@@ -22,6 +22,14 @@ function Home() {
                     </div>
                     <div className="about">
                         <img src="https://picsum.photos/id/169/260" className="avatar" alt="avatar" />
+                        <div className="about-content">
+                            <h2>About Me</h2>
+                            <br />
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+                    </div>
+                    <div className="about">
+                        <img src="https://picsum.photos/id/269/260" className="avatar" alt="avatar" />
                         <div className="about-content">
                             <h2>About Me</h2>
                             <br />

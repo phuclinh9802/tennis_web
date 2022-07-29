@@ -9,8 +9,8 @@ import Carousel from "react-material-ui-carousel"
 function Navbar() {
     return (
         <div>
-            <Carousel height="400px" indicators="false" activeStyle="position=flex" navButtonsAlwaysInvisible="true">
-                <Nav style={{backgroundImage: "url('https://picsum.photos/id/412/1920/600')"}}>
+            <Carousel height="600px" activeStyle="position=flex" navButtonsAlwaysInvisible="true" indicators={false}>
+                <Nav style={{backgroundImage: "url('/images/IMG_4759_header.JPG')", backgroundSize: "100%", backgroundRepeat: "no-repeat"}}>
                     <NavMenu>
                         <NavLink to='/' activeStyle>
                             Trang Chủ
@@ -23,7 +23,7 @@ function Navbar() {
                         </NavLink>
                     </NavMenu>
                 </Nav>
-                <Nav style={{backgroundImage: "url('https://picsum.photos/id/413/1920/600')"}}>
+                <Nav style={{backgroundImage: "url('/images/IMG_0222_header.JPG')", backgroundSize: "100%", backgroundRepeat: "no-repeat"}}>
                     <NavMenu>
                         <NavLink to='/' activeStyle>
                             Trang Chủ
@@ -36,7 +36,7 @@ function Navbar() {
                         </NavLink>
                     </NavMenu>
                 </Nav>
-                <Nav style={{backgroundImage: "url('https://picsum.photos/id/411/1920/600')"}}>
+                <Nav style={{backgroundImage: "url('/images/IMG_3630_header.JPG')", backgroundSize: "100%", backgroundRepeat: "no-repeat"}}>
                     <NavMenu>
                         <NavLink to='/' activeStyle>
                             Trang Chủ
