@@ -1,22 +1,42 @@
 import React from "react";
 import CourseCard from "../components/CourseCard/CourseCard";
 import YoutubeEmbed from "../components/YoutubeEmbed/YoutubeEmbed";
-import ContentCard from "../components/ContentCard/ContentCard";
 import Fade from 'react-reveal/Fade'
+import Carousel from "react-material-ui-carousel"
+import Gallery from "react-grid-gallery"
+import { MainImages } from "../components/Gallery/MainImages";
 import "./styles/index.css";
 
 function Home() {
     return (
-        <>
+        <div>
             <Fade>
-                <div className="about">
-                    <img src="https://picsum.photos/id/69/260" className="avatar" alt="avatar" />
-                    <div className="about-content">
-                        <h2>About Me</h2>
-                        <br />
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <Carousel autoPlay="false" animation="slide" duration="600">
+                    <div className="about">
+                        <img src="https://picsum.photos/id/69/260" className="avatar" alt="avatar" />
+                        <div className="about-content">
+                            <h2>About Me</h2>
+                            <br />
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        </div>
                     </div>
-                </div>
+                    <div className="about">
+                        <img src="https://picsum.photos/id/169/260" className="avatar" alt="avatar" />
+                        <div className="about-content">
+                            <h2>About Me</h2>
+                            <br />
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+                    </div>
+                    <div className="about">
+                        <img src="https://picsum.photos/id/269/260" className="avatar" alt="avatar" />
+                        <div className="about-content">
+                            <h2>About Me</h2>
+                            <br />
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+                    </div>
+                </Carousel>
             </Fade>
             <Fade>
                 <div className="videos">
@@ -40,22 +60,11 @@ function Home() {
                 </div>
             </Fade>
             <Fade>
-                <div className="content-card">
-                    <ContentCard
-                        title="What"
-                        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam." />
-                    <ContentCard
-                        title="When"
-                        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam." />
-                    <ContentCard
-                        title="Why"
-                        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam." />
-                    <ContentCard
-                        title="How"
-                        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam." />
+                <div className="gallery">
+                    <Gallery images={MainImages}/>
                 </div>
             </Fade>
-        </>
+        </div>
     );
 }
 export default Home;

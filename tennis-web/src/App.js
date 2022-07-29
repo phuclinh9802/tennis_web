@@ -9,7 +9,7 @@ import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <>
+    <div className='page-container'>
       <Router>
         <Navbar />
         <Routes>
@@ -20,7 +20,8 @@ function App() {
         <Footer />
 
       </Router>
-    </>
+
+    </div>
   );
 }
 
