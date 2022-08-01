@@ -3,8 +3,7 @@ import CourseCard from "../components/CourseCard/CourseCard";
 import YoutubeEmbed from "../components/YoutubeEmbed/YoutubeEmbed";
 import Fade from 'react-reveal/Fade'
 import Carousel from "react-material-ui-carousel"
-import Gallery from "react-grid-gallery"
-import { MainImages } from "../components/Gallery/MainImages";
+import Image from "../components/Gallery/MainImages";
 import "./styles/index.css";
 
 function Home() {
@@ -69,7 +68,7 @@ function Home() {
             </Fade>
             <Fade>
                 <div className="gallery">
-                    <Gallery images={MainImages}/>
+                    <Image />
                 </div>
             </Fade>
         </div>
