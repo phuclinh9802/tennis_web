@@ -1,4 +1,7 @@
-export const MainImages =
+import React from "react";
+import Gallery from "react-grid-gallery"
+
+const MainImages =
     [
         {
             src: process.env.PUBLIC_URL + "/images/IMG_0176.jpg",
@@ -158,8 +161,12 @@ export const MainImages =
         },
     ]
 
-export function getMainImages() {
-    return new Promise((resolve) => {
-        resolve(MainImages)
-    })
+function Image() {
+    return(
+        <Gallery 
+            images={MainImages}
+            enableImageSelection={false}/>
+    )
 }
+
+export default Image
