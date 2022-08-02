@@ -98,7 +98,7 @@ function Home() {
                             </div>
                             <div className="comment">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <h2>-Name</h2>
+                                <h2>-Name-</h2>
                             </div>
                         </div>
                     </>
@@ -109,7 +109,7 @@ function Home() {
                             </div>
                             <div className="comment">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                <h2>-Name</h2>
+                                <h2>-Name-</h2>
                             </div>
                         </div>
                         <div className="feedback">
@@ -118,7 +118,7 @@ function Home() {
                             </div>
                             <div className="comment">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <h2>-Name</h2>
+                                <h2>-Name-</h2>
                             </div>
                         </div>
                         <div className="feedback">
