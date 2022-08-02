@@ -10,19 +10,11 @@
     width: 100%;
 }
 
-.content-card {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    padding: 0px 5% 10px 5%;
-}
-
 .about {
     display: grid;
     grid-template-columns: 40% 60%;
     width: 100%;
     padding: 50px 0;
-    border-top: 2px solid lightgray;
 }
 
 .about:before {
@@ -40,10 +32,12 @@
     border-radius: 50%;
     transform: scale(1);
     transition: 0.5s ease;
+    height: 260px;
+    width: 260px;
 }
 
 .avatar:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: 0.5s ease-in-out;
 }
 
@@ -71,4 +65,64 @@
     letter-spacing: 1px;
     text-transform: none;
     line-height: 1em;
+}
+
+.gallery {
+    width: 100%;
+    padding: 0 100px 100px;
+    height: max-content;
+    min-height: 800px;
+    justify-content: center;
+}
+
+.page-container {
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 5rem;
+}
+
+.feedback {
+    display: grid;
+    grid-template-columns: 25% 50%;
+    padding: 20px 100px 30px 300px;
+    height: 300px;
+}
+
+.student {
+    display: flex;
+    justify-content: center;
+    border-right: 1px solid gray;
+    padding: 15px 0px;
+    background-color: aliceblue;
+    border-radius: 30px 0 0 30px;
+}
+
+.comment {
+    background-color: aliceblue;
+    padding-right: 30px;
+    border-radius: 0 30px 30px 0;
+}
+
+.comment h2 {
+    font-weight: 900;
+    font-style: normal;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-transform: none;
+    line-height: 1.2em;
+
+    padding-top: 10px;
+    text-align: end;
+}
+
+.comment p {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: none;
+    line-height: 1em;
+
+    padding: 20px 15px 0;
+    text-align: center;
 }
