@@ -70,8 +70,7 @@
 .gallery {
     width: 100%;
     padding: 0 100px 100px;
-    height: max-content;
-    min-height: 800px;
+    overflow: auto;
     justify-content: center;
 }
 
