@@ -72,66 +72,68 @@ function Home() {
                 </div>
             </Fade>
             <Fade left>
-                <Carousel indicators={false} stopAutoPlayOnHover={true} navButtonsAlwaysInvisible={true}>
-                    <>
-                        <div className="feedback">
-                            <div className="student">
-                                <img src="https://picsum.photos/id/25/260" className="avatar" alt="avatar" />
+                <div className="feedback-container">
+                    <Carousel indicators={false} stopAutoPlayOnHover={true} navButtonsAlwaysInvisible={true}>
+                        <>
+                            <div className="feedback">
+                                <div className="student">
+                                    <img src="https://picsum.photos/id/25/260" className="avatar" alt="avatar" />
+                                </div>
+                                <div className="comment">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <h2>-Name-</h2>
+                                </div>
                             </div>
-                            <div className="comment">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                <h2>-Name</h2>
+                            <div className="feedback">
+                                <div className="student">
+                                    <img src="https://picsum.photos/id/26/260" className="avatar" alt="avatar" />
+                                </div>
+                                <div className="comment">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <h2>-Name-</h2>
+                                </div>
                             </div>
-                        </div>
-                        <div className="feedback">
-                            <div className="student">
-                                <img src="https://picsum.photos/id/26/260" className="avatar" alt="avatar" />
+                            <div className="feedback">
+                                <div className="student">
+                                    <img src="https://picsum.photos/id/27/260" className="avatar" alt="avatar" />
+                                </div>
+                                <div className="comment">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <h2>-Name-</h2>
+                                </div>
                             </div>
-                            <div className="comment">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <h2>-Name</h2>
+                        </>
+                        <>
+                            <div className="feedback">
+                                <div className="student">
+                                    <img src="https://picsum.photos/id/28/260" className="avatar" alt="avatar" />
+                                </div>
+                                <div className="comment">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <h2>-Name-</h2>
+                                </div>
                             </div>
-                        </div>
-                        <div className="feedback">
-                            <div className="student">
-                                <img src="https://picsum.photos/id/27/260" className="avatar" alt="avatar" />
+                            <div className="feedback">
+                                <div className="student">
+                                    <img src="https://picsum.photos/id/29/260" className="avatar" alt="avatar" />
+                                </div>
+                                <div className="comment">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <h2>-Name-</h2>
+                                </div>
                             </div>
-                            <div className="comment">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <h2>-Name-</h2>
+                            <div className="feedback">
+                                <div className="student">
+                                    <img src="https://picsum.photos/id/30/260" className="avatar" alt="avatar" />
+                                </div>
+                                <div className="comment">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <h2>-Name-</h2>
+                                </div>
                             </div>
-                        </div>
-                    </>
-                    <>
-                        <div className="feedback">
-                            <div className="student">
-                                <img src="https://picsum.photos/id/28/260" className="avatar" alt="avatar" />
-                            </div>
-                            <div className="comment">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                <h2>-Name-</h2>
-                            </div>
-                        </div>
-                        <div className="feedback">
-                            <div className="student">
-                                <img src="https://picsum.photos/id/29/260" className="avatar" alt="avatar" />
-                            </div>
-                            <div className="comment">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <h2>-Name-</h2>
-                            </div>
-                        </div>
-                        <div className="feedback">
-                            <div className="student">
-                                <img src="https://picsum.photos/id/30/260" className="avatar" alt="avatar" />
-                            </div>
-                            <div className="comment">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <h2>-Name</h2>
-                            </div>
-                        </div>
-                    </>
-                </Carousel>
+                        </>
+                    </Carousel>
+                </div>
             </Fade>
         </div>
     );
