@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 *.jpg filter=lfs diff=lfs merge=lfs -text
 *.mov filter=lfs diff=lfs merge=lfs -text
 . !text !filter !merge !diff
 *.JPG filter=lfs diff=lfs merge=lfs -text
 *.JPG !text !filter !merge !diff
+=======
+
+>>>>>>> f00818d952eba0e51554a8867bf324a2e8149557
