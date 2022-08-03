@@ -48,21 +48,21 @@ export default function BasicTabs() {
 
     return (
         <Box sx={{ width: '100%' }}>
-            <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
+            <Box>
                 <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
-                    <Tab label="Drill One" {...a11yProps(0)} />
-                    <Tab label="Drill Two" {...a11yProps(1)} />
-                    <Tab label="Drill Three" {...a11yProps(2)} />
+                    <Tab label="Kid Training" {...a11yProps(0)} />
+                    <Tab label="Training Session" {...a11yProps(1)} />
+                    <Tab label="Training Drill" {...a11yProps(2)} />
                 </Tabs>
             </Box>
             <TabPanel value={value} index={0}>
-                <TabItem playlistId ="PLC77007E23FF423C6"/>
+                <TabItem drill ="kid"/>
             </TabPanel>
             <TabPanel value={value} index={1}>
-                <TabItem playlistId ="RDJFm7YDVlqnI" />
+                <TabItem drill ="teen" />
             </TabPanel>
             <TabPanel value={value} index={2}>
-                <TabItem playlistId ="RDGMEMHDXYb1_DDSgDsobPsOFxpA" />
+                <TabItem drill ="extra" />
             </TabPanel>
         </Box>
     );
