@@ -11,7 +11,11 @@ function Contact() {
       <div className="contact-section">
         <div></div>
         <div className="left-content">
-          <Typography variant="h4">Contact Us</Typography>
+          <Typography variant="h4">Liên hệ</Typography>
+          <img src={process.env.PUBLIC_URL + "/images/IMG_0229_avatar.jpg"} className="contact-us" alt="avatar" />
+          <Typography variant="caption">Zalo: 0123456789</Typography>
+          <Typography variant="caption">FB: fb.com/example</Typography>
+          <Typography variant="caption">YT: youtube.com/example</Typography>
         </div>
         <div className="right-content">
           <ContactForm />
@@ -22,7 +26,7 @@ function Contact() {
         <div></div>
         <div className="left-content">
           <div className="description">
-            <Typography variant='h4'>Location</Typography>
+            <Typography variant='h4'>Địa điểm</Typography>
             <Typography variant='caption'>Khu đô thị Royal City
               Thuong Dinh
               Thanh Xuân
